@@ -25,7 +25,7 @@ class PetersonLockManager:
                 while self.flag[i] and self.turn == process_id:
                     pass
 
-        # Seção crítica
+        # Acessa a Seção crítica
         print(f"Processo {process_id} entrou na região crítica")
 
         # Saída da seção crítica
@@ -46,6 +46,8 @@ class PetersonLockManager:
         for thread in self.threads:
             thread.join()
 
+
+#Inicia o programa de teste
 # Criar o gerenciador de lock de Peterson
 lock_manager = PetersonLockManager()
 
