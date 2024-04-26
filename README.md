@@ -4,8 +4,8 @@
 
 - Artur Lapot
 
-- Felipe Paco
-
 - Alany Gabriely
+
+- Filipe Paco
 
 - Randerson Franceles
